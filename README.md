@@ -25,4 +25,8 @@ Additionally for the XGBoost model outside data was implemented. 538 Rankings we
 
 ### 3. XGBoost Model
 
-- Ultimately utilized an XGBoost model heavily based on the notebook provided by Kaggle user [radar](https://www.kaggle.com/code/raddar/vilnius-ncaa)
+- Ultimately utilized an XGBoost model heavily based on the notebook provided by Kaggle user [raddar](https://www.kaggle.com/code/raddar/vilnius-ncaa), who found that the less time he spent on the competition, the better performance he saw from his model. This simple model was the groundwork for the top performers in this years competition, and using our hindsight we built a model designed purely to win the competition.
+- Model trained on engineered features including recent performance metrics, seeds, and historical matchup outcomes.
+- Optimized with grid search for hyperparameters such as max depth, learning rate, and regularization terms to ensure robust predictions.
+
+
