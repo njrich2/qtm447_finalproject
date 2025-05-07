@@ -30,3 +30,6 @@ Additionally for the XGBoost model outside data was implemented. 538 Rankings we
 - Optimized with grid search for hyperparameters such as max depth, learning rate, and regularization terms to ensure robust predictions.
 
 
+## Conclusion
+
+This project combined deep learning, matrix completion, and gradient boosting methods to create robust predictive models for NCAA tournament outcomes. Future improvements could involve feature engineering enhancements, additional hyperparameter tuning, and model ensembling techniques to further refine predictions.
